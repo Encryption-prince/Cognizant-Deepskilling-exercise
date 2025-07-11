@@ -7,6 +7,7 @@ This repository contains all the exercises completed during the Cognizant DeepSk
 - [Week 1: Engineering Concepts](#week-1-engineering-concepts)
 - [Week 2: Testing & Database Programming](#week-2-testing--database-programming)
 - [Week 3: Spring Data JPA](#week-3-spring-data-jpa)
+- [Week 4: Spring Rest using Spring Boot](#week-4-spring-rest-using-spring-boot)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Completion Status](#completion-status)
@@ -96,6 +97,25 @@ This repository contains all the exercises completed during the Cognizant DeepSk
   - Document: Difference between JPA, Hibernate and Spring Data JPA
   - **File**: `Week3(28-4)/Spring Data JPA/Code/Handson 4/Difference between JPA, Hibernate and Spring Data JPA.docx`
 
+## 🖥️ Week 4: Spring Rest using Spring Boot (4-11) ✅
+
+### JWT Authentication
+- **JWT Program**
+  - Implementation of JWT-based authentication using Spring Boot
+  - Includes configuration, utility, and controller classes
+  - **Output**: Screenshots available in `Jwt/Screenshot/`
+
+### Spring Rest Handson
+- **Restful Services**
+  - Implementation of RESTful web services using Spring Boot
+  - Country service, controller, and entity examples
+  - XML-based country list and configuration
+  - **Output**: Screenshots available in `Restful Services/Screenshot/`
+- **Load Country from Spring XML**
+  - Demonstrates loading beans from Spring XML configuration in a Spring Boot app
+  - Uses `country.xml` for bean definitions
+  - **Output**: Screenshot available in `Load Country from Spring XML/Screenshot/`
+
 ## 🛠️ Technologies Used
 
 - **Programming Languages**: Java, PL/SQL
@@ -126,28 +146,84 @@ Cognizant-Deepskilling-exercise/
 │   └── PL SQL/
 │       ├── Exercise1_Control Statements.docx
 │       └── Exercise2_Stored Procedures.docx
-└── Week3(28-4)/
-    └── Spring Data JPA/
-        ├── Code/
-        │   ├── orm-learn/
-        │   │   └── orm-learn/
-        │   │       ├── src/
-        │   │       │   ├── main/
-        │   │       │   │   ├── java/com/cognizant/orm_learn/
-        │   │       │   │   │   ├── OrmLearnApplication.java
-        │   │       │   │   │   ├── enitity/Country.java
-        │   │       │   │   │   ├── repository/CountryRepository.java
-        │   │       │   │   │   └── service/CountryService.java
-        │   │       │   │   └── resources/application.properties
-        │   │       │   └── test/java/com/cognizant/orm_learn/OrmLearnApplicationTests.java
-        │   │       ├── pom.xml
-        │   │       └── ...
-        │   └── Handson 4/
-        │       └── Difference between JPA, Hibernate and Spring Data JPA.docx
-        ├── Screenshot/
-        │   ├── Handson 1 1st logpart.png
-        │   └── Handson 1 2nd logpart.png
-        └── ...
+├── Week3(28-4)/
+│   └── Spring Data JPA/
+│       ├── Code/
+│       │   ├── orm-learn/
+│       │   │   └── orm-learn/
+│       │   │       ├── src/
+│       │   │       │   ├── main/
+│       │   │       │   │   ├── java/com/cognizant/orm_learn/
+│       │   │       │   │   │   ├── OrmLearnApplication.java
+│       │   │       │   │   │   ├── enitity/Country.java
+│       │   │       │   │   │   ├── repository/CountryRepository.java
+│       │   │       │   │   │   └── service/CountryService.java
+│       │   │       │   │   └── resources/application.properties
+│       │   │       └── test/java/com/cognizant/orm_learn/OrmLearnApplicationTests.java
+│       │   ├── pom.xml
+│       │   └── ...
+│       └── Handson 4/
+│           └── Difference between JPA, Hibernate and Spring Data JPA.docx
+│       ├── Screenshot/
+│       │   ├── Handson 1 1st logpart.png
+│       │   └── Handson 1 2nd logpart.png
+│       └── ...
+├── Week4(4-11)/
+│   └── Spring Rest using Spring Boot/
+│       ├── Jwt/
+│       │   ├── Code/
+│       │   │   └── spring-learn/
+│       │   │       ├── src/
+│       │   │       │   ├── main/java/com/cognizant/spring_learn/
+│       │   │       │   │   ├── AuthenticationController.java
+│       │   │       │   │   ├── JwtUtil.java
+│       │   │       │   │   ├── SecurityConfig.java
+│       │   │       │   │   └── SpringLearnApplication.java
+│       │   │       │   └── main/resources/application.properties
+│       │   │       │   └── test/java/com/cognizant/spring_learn/SpringLearnApplicationTests.java
+│       │   │       ├── pom.xml
+│       │   │       └── ...
+│       │   └── Screenshot/
+│       │       ├── JWT program terminal.png
+│       │       └── JWT program locahost window.png
+│       └── Spring Rest Handson/
+│           ├── Restful Services/
+│           │   └── Code/
+│           │       └── spring-learn/
+│           │           ├── src/
+│           │           │   ├── main/java/com/cognizant/spring_learn/
+│           │           │   │   ├── CountryController.java
+│           │   │       │   │   ├── CountryService.java
+│           │   │       │   │   ├── Country.java
+│           │   │       │   │   ├── HelloController.java
+│           │   │       │   │   └── SpringLearnApplication.java
+│           │   │       │   └── main/resources/
+│           │   │       │       ├── application.properties
+│           │   │       │       ├── country.xml
+│           │   │       │       └── countrylist.xml
+│           │   │       │   └── test/java/com/cognizant/spring_learn/SpringLearnApplicationTests.java
+│           │   │       ├── pom.xml
+│       │   │       └── ...
+│           └── Screenshot/
+│           │   ├── CountryWebService.png
+│           │   ├── Get Country Based on Country Code.png
+│           │   └── HelloWorldRestful.png
+│           └── Load Country from Spring XML/
+│               └── Code/
+│                   └── spring-learn/
+│                       ├── src/
+│                       │   ├── main/java/com/cognizant/spring_learn/
+│                       │   │   ├── Country.java
+│                       │   │   └── SpringLearnApplication.java
+│                       │   └── main/resources/
+│                       │       ├── application.properties
+│                       │       └── country.xml
+│                       │   └── test/java/com/cognizant/spring_learn/SpringLearnApplicationTests.java
+│                       ├── pom.xml
+│                       └── ...
+│               └── Screenshot/
+│                   └── Load Country from Spring XML.png
+└── ...
 ```
 
 ## 📊 Completion Status
@@ -155,3 +231,4 @@ Cognizant-Deepskilling-exercise/
 - ✅ Week 1: Engineering Concepts (Complete)
 - ✅ Week 2: Testing & Database Programming (Complete)
 - ✅ Week 3: Spring Data JPA (Complete)
+- ✅ Week 4: Spring Rest using Spring Boot (Complete)
