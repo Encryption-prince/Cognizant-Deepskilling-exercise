@@ -8,6 +8,7 @@ This repository contains all the exercises completed during the Cognizant DeepSk
 - [Week 2: Testing & Database Programming](#week-2-testing--database-programming)
 - [Week 3: Spring Data JPA](#week-3-spring-data-jpa)
 - [Week 4: Spring Rest using Spring Boot](#week-4-spring-rest-using-spring-boot)
+- [Week 5: Microservices](#week-5-microservices)
 - [Technologies Used](#technologies-used)
 - [Project Structure](#project-structure)
 - [Completion Status](#completion-status)
@@ -100,12 +101,14 @@ This repository contains all the exercises completed during the Cognizant DeepSk
 ## 🖥️ Week 4: Spring Rest using Spring Boot (4-11) ✅
 
 ### JWT Authentication
+
 - **JWT Program**
   - Implementation of JWT-based authentication using Spring Boot
   - Includes configuration, utility, and controller classes
   - **Output**: Screenshots available in `Jwt/Screenshot/`
 
 ### Spring Rest Handson
+
 - **Restful Services**
   - Implementation of RESTful web services using Spring Boot
   - Country service, controller, and entity examples
@@ -232,3 +235,4 @@ Cognizant-Deepskilling-exercise/
 - ✅ Week 2: Testing & Database Programming (Complete)
 - ✅ Week 3: Spring Data JPA (Complete)
 - ✅ Week 4: Spring Rest using Spring Boot (Complete)
+- ✅ Week 5: Microservices (Complete)
