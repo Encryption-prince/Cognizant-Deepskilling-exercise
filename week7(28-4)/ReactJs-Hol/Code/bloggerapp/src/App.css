@@ -1,0 +1,9 @@
+.st2, .v1, .mystyle1 {
+  padding: 20px;
+  /* border-right: 2px solid green; */
+  width: 30%;
+}
+
+h1 {
+  border-bottom: 1px solid black;
+}
